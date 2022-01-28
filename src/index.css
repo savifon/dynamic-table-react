@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap");
+
+/* table properties */
+:root {
+    --bgColor: #29bcba;
+    --titleColor: #ffffff;
+    --textColor: #ffffff;
+
+    --headerBgColor: #23a5a3;
+    --headerColor: #ffffff;
+
+    --evenTrBg: rgba(255, 255, 255, 0.1);
+
+    --radius: 5px;
+}
+/* table properties */
+
+* {
+    box-sizing: border-box;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: #313131;
+    /*color: #f2f2f2; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 0;
+}
+
+*:not(h1, h2, h3, h4, h5) {
+    font-size: 0.95rem;
+}
+
+.dataTable {
+    max-width: 90vw;
+}

@@ -1,67 +1,65 @@
-{
-    "employees": [
-        {
-            "name": "Administrador",
-            "email": "admin@example.com",
-            "cpf": "11122233344",
-            "salary": 100000,
-            "bio": "Gestor e vendedor oficial de veículos automotores"
-        },
-        {
-            "name": "Aristóteles",
-            "email": "ari@example.com",
-            "cpf": "11122233344",
-            "salary": 20000,
-            "bio": "Vendedor oficial de veículos automotores"
-        },
-        {
-            "name": "Edith",
-            "email": "edith@example.com",
-            "cpf": "11122233344",
-            "salary": 5000,
-            "bio": "Vendedora oficial de veículos automotores"
-        },
-        {
-            "name": "Manoel Fernandes",
-            "email": "manoel@example.com",
-            "cpf": "11122233344",
-            "salary": 7500,
-            "bio": "Vendedor oficial de veículos automotores"
-        },
-        {
-            "name": "Heitor Neves",
-            "email": "heitor@example.com",
-            "cpf": "11122233344",
-            "salary": 2000,
-            "bio": "Vendedor oficial de veículos automotores"
-        },
-        {
-            "name": "Thays Duarte",
-            "email": "thays@example.com",
-            "cpf": "11122233344",
-            "salary": 10000,
-            "bio": "Vendedora oficial de veículos automotores"
-        },
-        {
-            "name": "Sandra Batista",
-            "email": "sandra@example.com",
-            "cpf": "11122233344",
-            "salary": 2500,
-            "bio": "Vendedora oficial de veículos automotores"
-        },
-        {
-            "name": "Teodoro Duarte",
-            "email": "teo@example.com",
-            "cpf": "11122233344",
-            "salary": 50,
-            "bio": "Vendedor oficial de veículos automotores"
-        },
-        {
-            "name": "Marciana Neves",
-            "email": "marciana@example.com",
-            "cpf": "11122233344",
-            "salary": 1000,
-            "bio": "Vendedora oficial de veículos automotores"
-        }
-    ]
-}
+[
+    {
+        "name": "Administrador",
+        "email": "admin@example.com",
+        "cpf": "11122233344",
+        "salary": 100000,
+        "bio": "Gestor e vendedor oficial de veículos automotores"
+    },
+    {
+        "name": "Aristóteles",
+        "email": "ari@example.com",
+        "cpf": "11122233344",
+        "salary": 20000,
+        "bio": "Vendedor oficial de veículos automotores"
+    },
+    {
+        "name": "Edith",
+        "email": "edith@example.com",
+        "cpf": "11122233344",
+        "salary": 5000,
+        "bio": "Vendedora oficial de veículos automotores"
+    },
+    {
+        "name": "Manoel Fernandes",
+        "email": "manoel@example.com",
+        "cpf": "11122233344",
+        "salary": 7500,
+        "bio": "Vendedor oficial de veículos automotores"
+    },
+    {
+        "name": "Heitor Neves",
+        "email": "heitor@example.com",
+        "cpf": "11122233344",
+        "salary": 2000,
+        "bio": "Vendedor oficial de veículos automotores"
+    },
+    {
+        "name": "Thays Duarte",
+        "email": "thays@example.com",
+        "cpf": "11122233344",
+        "salary": 10000,
+        "bio": "Vendedora oficial de veículos automotores"
+    },
+    {
+        "name": "Sandra Batista",
+        "email": "sandra@example.com",
+        "cpf": "11122233344",
+        "salary": 2500,
+        "bio": "Vendedora oficial de veículos automotores"
+    },
+    {
+        "name": "Teodoro Duarte",
+        "email": "teo@example.com",
+        "cpf": "11122233344",
+        "salary": 50,
+        "bio": "Vendedor oficial de veículos automotores"
+    },
+    {
+        "name": "Marciana Neves",
+        "email": "marciana@example.com",
+        "cpf": "11122233344",
+        "salary": 1000,
+        "bio": "Vendedora oficial de veículos automotores"
+    }
+]
