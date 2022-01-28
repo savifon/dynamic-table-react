@@ -25,7 +25,7 @@
             "model": "Sorento",
             "yer": "2014",
             "km": 50000,
-            "color": "preto",
+            "color": "Preto",
             "status": "Vendido",
             "chassi": "5XYKUDA21DG367493",
             "value": 20000
@@ -35,7 +35,7 @@
             "model": "Fusca",
             "yer": "1970",
             "km": 900000,
-            "color": "rosa",
+            "color": "Rosa",
             "status": "Disponível",
             "chassi": "JH4KA4630JC008595",
             "value": 80000
@@ -55,7 +55,7 @@
             "model": "Kombi",
             "yer": "1980",
             "km": 908090,
-            "color": "branco",
+            "color": "Branco",
             "status": "Reservado",
             "chassi": "JH4KA3250KC009863",
             "value": 5000
@@ -65,7 +65,7 @@
             "model": "Cerato Koup",
             "yer": "2012",
             "km": 150000,
-            "color": "vermelho",
+            "color": "Vermelho",
             "status": "Disponível",
             "chassi": "JTMWF4DV8C5047998",
             "value": 50000
@@ -75,7 +75,7 @@
             "model": "Bandeirante",
             "yer": "1958",
             "km": 150000,
-            "color": "verde",
+            "color": "Verde",
             "status": "Vendido",
             "chassi": "1B7HF16Y8TS510206",
             "value": 3000
