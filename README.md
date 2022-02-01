@@ -1,7 +1,5 @@
 ## Dynamic Table React
 
-⚠⚠ _Atenção: Projeto em desenvolvimento_ ⚠⚠
-
 Componente desenvolvido para gerar uma `<table>` estilizada e responsiva a partir de um conjunto de dados carregado.\
 Independente do número de atributos (colunas), o componente renderiza toda a tabela, incluindo o `<thead>` e `<tbody>`.
 
@@ -29,4 +27,3 @@ Siga os passos:
 2. `cd <PastaDoProjeto>`
 3. `npm install` ou `yarn install`
 4. `npm start` ou `yarn start`
-
