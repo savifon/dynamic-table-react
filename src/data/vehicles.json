@@ -6,7 +6,7 @@
         "km": 150000,
         "color": "Vermelho",
         "status": "Vendido",
-        "chassi": "KNDPBCA25B7076883",
+        "chassi": "ABCDDEF12G3456789",
         "value": 13000
     },
     {
@@ -16,7 +16,7 @@
         "km": 2400000,
         "color": "Prata",
         "status": "Reservado",
-        "chassi": "3B7KF23Z91G223647",
+        "chassi": "ABCDDEF12G3456789",
         "value": 8000
     },
     {
@@ -26,7 +26,7 @@
         "km": 50000,
         "color": "Preto",
         "status": "Vendido",
-        "chassi": "5XYKUDA21DG367493",
+        "chassi": "ABCDDEF12G3456789",
         "value": 20000
     },
     {
@@ -36,7 +36,7 @@
         "km": 900000,
         "color": "Rosa",
         "status": "Disponível",
-        "chassi": "JH4KA4630JC008595",
+        "chassi": "ABCDDEF12G3456789",
         "value": 80000
     },
     {
@@ -46,7 +46,7 @@
         "km": 10000,
         "color": "Preto",
         "status": "Vendido",
-        "chassi": "2FTDF18W5VCA88039",
+        "chassi": "ABCDDEF12G3456789",
         "value": 100000
     },
     {
@@ -56,7 +56,7 @@
         "km": 908090,
         "color": "Branco",
         "status": "Reservado",
-        "chassi": "JH4KA3250KC009863",
+        "chassi": "ABCDDEF12G3456789",
         "value": 5000
     },
     {
@@ -66,7 +66,7 @@
         "km": 150000,
         "color": "Vermelho",
         "status": "Disponível",
-        "chassi": "JTMWF4DV8C5047998",
+        "chassi": "ABCDDEF12G3456789",
         "value": 50000
     },
     {
@@ -76,7 +76,7 @@
         "km": 150000,
         "color": "Verde",
         "status": "Vendido",
-        "chassi": "1B7HF16Y8TS510206",
+        "chassi": "ABCDDEF12G3456789",
         "value": 3000
     }
 ]
