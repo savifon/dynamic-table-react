@@ -7,11 +7,13 @@ Independente do número de atributos (colunas), o componente renderiza toda a ta
 
 ```
 ...
-import data from "./data/products.json";
+import data from "./data/vehicles.json";
+...
+const dataTable = data;
 ...
 <Table
     data={dataTable}
-    title="Products"
+    title="Vehicles"
 />
 ...
 ```
