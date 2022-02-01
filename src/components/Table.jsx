@@ -33,7 +33,7 @@ const Table = (props) => {
                         <td
                             data-label={prop[0]}
                             key={crypto.randomUUID()}
-                            className={`${tag === prop[0] ? prop[1] : ""}`}
+                            className={`${tag === prop[0] ? "tag" : ""}`}
                         >
                             <span>
                                 {`${

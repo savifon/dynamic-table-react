@@ -2,20 +2,29 @@ import "./App.css";
 
 import Table from "./components/Table";
 
-// import data from "./data/employees.json";
-// import data from "./data/images.json";
-import data from "./data/vehicles.json";
+import employees from "./data/employees.json";
+import images from "./data/images.json";
+import vehicles from "./data/vehicles.json";
 
 function App() {
-    const dataTable = data;
+    const dataEmployees = employees;
+    const dataImages = images;
+    const dataVehicles = vehicles;
 
     return (
         <>
             <Table
-                data={dataTable}
-                title="Exemplo de tabela"
-                // lastLarger
+                data={dataEmployees}
+                title="Employees"
+                lastLarger
                 money="salary"
+            />
+            <Table data={dataImages} title="Images" money="salary" />
+            <Table
+                data={dataVehicles}
+                title="Vahicles"
+                money="value"
+                tag="status"
             />
         </>
     );

@@ -1,7 +1,26 @@
+:root {
+    --bgColor: #29bcba;
+    --titleColor: #ffffff;
+    --textColor: #ffffff;
+
+    --headerBgColor: #23a5a3;
+    --headerColor: #ffffff;
+
+    --evenTrBg: rgba(255, 255, 255, 0.1);
+
+    --textTag: #313131;
+    --bgTag: #ffffff;
+
+    --boxShadow: #313131;
+
+    --radius: 5px;
+}
+
 .dataTable {
     background: var(--bgColor);
     padding: 0.5rem;
     border-radius: var(--radius);
+    /* max-width: 90vw; */
 }
 
 .dataTable .headerTable {
@@ -56,28 +75,15 @@
     background: var(--evenTrBg);
 }
 
-.dataTable table td.Vendido > span,
-.dataTable table td.Disponível > span,
-.dataTable table td.Reservado > span {
+.dataTable table td.tag > span {
     padding: 5px;
     border-radius: var(--radius);
     display: block;
     margin: 0 auto;
     width: auto;
     text-align: center;
-}
-
-.dataTable table td.Vendido > span {
-    color: #c33434;
-    background: rgba(245, 74, 72, 0.2);
-}
-.dataTable table td.Disponível > span {
-    color: #34c38f;
-    background: rgba(52, 195, 143, 0.2);
-}
-.dataTable table td.Reservado > span {
-    color: #fac12f;
-    background: rgba(250, 193, 47, 0.2);
+    background: var(--bgTag);
+    color: var(--textTag);
 }
 
 @media screen and (min-width: 1025px) {
@@ -123,6 +129,8 @@
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 1.5rem;
+        box-shadow: 0 10px 10px -10px var(--boxShadow);
+        border-radius: var(--radius);
     }
 
     .dataTable table td {

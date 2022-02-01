@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap");
 
 /* table properties */
-:root {
+/* :root {
     --bgColor: #29bcba;
     --titleColor: #ffffff;
     --textColor: #ffffff;
@@ -12,7 +12,7 @@
     --evenTrBg: rgba(255, 255, 255, 0.1);
 
     --radius: 5px;
-}
+} */
 /* table properties */
 
 * {
@@ -29,7 +29,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10rem 0;
+    padding: 10rem;
 }
 
 *:not(h1, h2, h3, h4, h5) {
@@ -37,5 +37,5 @@ body {
 }
 
 .dataTable {
-    max-width: 90vw;
+    margin-bottom: 2rem;
 }
