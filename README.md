@@ -1,4 +1,6 @@
-## Dynamic Table React
+## Dynamic Table React 🧾
+
+🔗 Link do exemplo: [https://dynamic-table-react.vercel.app/](https://dynamic-table-react.vercel.app/)
 
 Componente desenvolvido para gerar uma `<table>` estilizada e responsiva a partir de um conjunto de dados carregado.\
 Independente do número de atributos (colunas), o componente renderiza toda a tabela, incluindo o `<thead>` e `<tbody>`.
