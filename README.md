@@ -29,3 +29,7 @@ Siga os passos:
 2. `cd <PastaDoProjeto>`
 3. `npm install` ou `yarn install`
 4. `npm start` ou `yarn start`
+
+\
+![Capturar](https://user-images.githubusercontent.com/31941701/151913331-4ffb0e78-5d6a-4a24-9834-a0b38630fd54.JPG)
+![Capturar2](https://user-images.githubusercontent.com/31941701/151913338-db65f48d-9af5-4e8f-84fb-a822a5bf997d.JPG)
