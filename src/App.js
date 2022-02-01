@@ -22,7 +22,7 @@ function App() {
             <Table data={dataImages} title="Images" money="salary" />
             <Table
                 data={dataVehicles}
-                title="Vahicles"
+                title="Vehicles"
                 money="value"
                 tag="status"
             />
