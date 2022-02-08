@@ -3,7 +3,7 @@
 🔗 Link do exemplo: [https://dynamic-table-react.vercel.app/](https://dynamic-table-react.vercel.app/)
 
 Componente desenvolvido para gerar uma `<table>` estilizada e responsiva a partir de um conjunto de dados carregado.\
-Independente do número de atributos (colunas), o componente renderiza toda a tabela, incluindo o `<thead>` e `<tbody>`.\
+Independente do número de atributos (colunas), o componente renderiza toda a tabela, incluindo o `<thead>` e `<tbody>`.
 
 Também é possível passar uma lista de ações `actions`, conforme exemplo abaixo, que serão renderizadas na última coluna da tabela. Você pode passar como `label` uma string ou um componente, como um ícone, além do `param`, que será o valor retornado para sua `function`.
 
