@@ -94,7 +94,7 @@
 }
 
 @media screen and (min-width: 1025px) {
-    .dataTable table tr.lastLarger > th:not(.actions):nth-last-of-type(2) {
+    .dataTable table tr.lastLarger > th:last-child {
         width: 35vw;
     }
 }
