@@ -29,7 +29,6 @@ function App() {
             <Table
                 data={dataEmployees}
                 title="Employees"
-                lastLarger
                 money="salary"
                 actions={[
                     {
