@@ -3,7 +3,9 @@
 🔗 Link do exemplo: [https://dynamic-table-react.vercel.app/](https://dynamic-table-react.vercel.app/)
 
 Componente desenvolvido para gerar uma `<table>` estilizada e responsiva a partir de um conjunto de dados carregado.\
-Independente do número de atributos (colunas), o componente renderiza toda a tabela, incluindo o `<thead>` e `<tbody>`.
+Independente do número de atributos (colunas), o componente renderiza toda a tabela, incluindo o `<thead>` e `<tbody>`.\
+
+Também é possível passar uma lista de ações `actions`, conforme exemplo abaixo, que serão renderizadas na última coluna da tabela. Você pode passar como `label` uma string ou um componente, como um ícone, além do `param`, que será o valor retornado para sua `function`.
 
 ```
 ...
@@ -16,8 +18,13 @@ const dataTable = data;
     title="My Table"
     actions={[
         {
-            function: myFunction,
-            label: "Action" />",
+            function: myFunction1,
+            label: "Action1" />",
+            param: "my_id",
+        },
+        {
+            function: myFunction2,
+            label: "Action2" />",
             param: "my_id",
         },
     ]}
@@ -39,6 +46,7 @@ Siga os passos:
 3. `npm install` ou `yarn install`
 4. `npm start` ou `yarn start`
 
-\
-![Capturar](https://user-images.githubusercontent.com/31941701/151913331-4ffb0e78-5d6a-4a24-9834-a0b38630fd54.JPG)
-![Capturar2](https://user-images.githubusercontent.com/31941701/151913338-db65f48d-9af5-4e8f-84fb-a822a5bf997d.JPG)
+
+
+https://user-images.githubusercontent.com/31941701/152903615-06e90e03-eb73-43a6-80a4-a1acffef60a9.mp4
+
