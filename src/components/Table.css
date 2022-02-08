@@ -86,8 +86,15 @@
     color: var(--textTag);
 }
 
+.dataTable table button {
+    background: none;
+    border: none;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
 @media screen and (min-width: 1025px) {
-    .dataTable table tr.lastLarger > th:last-child {
+    .dataTable table tr.lastLarger > th:not(.actions):nth-last-of-type(2) {
         width: 35vw;
     }
 }

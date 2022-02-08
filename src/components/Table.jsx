@@ -6,7 +6,7 @@ import React from "react";
 // import Search from "./Search";
 
 const Table = (props) => {
-    const { lastLarger, data, title, tag, money } = props;
+    const { lastLarger, data, title, tag, money, actions } = props;
 
     const handleThead = (data) => {
         if (data.length > 0) {
@@ -18,6 +18,7 @@ const Table = (props) => {
                     {Object.keys(data[0]).map((prop) => (
                         <th key={crypto.randomUUID()}>{prop}</th>
                     ))}
+                    {actions ? <th>Actions</th> : null}
                 </tr>
             );
         }
@@ -44,6 +45,20 @@ const Table = (props) => {
                             </span>
                         </td>
                     ))}
+                    {actions ? (
+                        <td data-label="Actions">
+                            {actions.map((action) => (
+                                <button
+                                    key={crypto.randomUUID()}
+                                    onClick={() =>
+                                        action.function(data[action.param])
+                                    }
+                                >
+                                    {action.label}
+                                </button>
+                            ))}
+                        </td>
+                    ) : null}
                 </tr>
             );
         }

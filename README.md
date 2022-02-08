@@ -13,7 +13,14 @@ const dataTable = data;
 ...
 <Table
     data={dataTable}
-    title="Vehicles"
+    title="My Table"
+    actions={[
+        {
+            function: myFunction,
+            label: "Action" />",
+            param: "my_id",
+        },
+    ]}
 />
 ...
 ```
